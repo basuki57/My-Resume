@@ -1,0 +1,130 @@
+\documentclass[10pt]{article}
+
+% set smaller margins
+\usepackage[a4paper,margin=1in]{geometry}
+
+% use standard math symbols
+\usepackage{amssymb}
+
+% for \text inside formulas and for \eqref
+\usepackage{amsmath}
+
+% for bibliography
+\usepackage{natbib}
+\bibliographystyle{plainnat}
+
+% enable full XeLaTeX power
+\usepackage{xltxtra}
+
+% select widely available fonts
+\setmainfont{Georgia}
+\setmonofont{Courier New}
+
+% substitute another font for a few Unicode glyphs missing in the main font
+\newfontfamily{\msminchofont}{MS Mincho}
+\catcode`✓=\active
+\protected\def ✓{{\msminchofont\char`\✓}}
+
+% set paragraph margins
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+
+% prevent overfull lines
+\setlength{\emergencystretch}{3em}
+
+% for \includegraphics
+\usepackage{graphicx}
+\usepackage{grffile}
+
+% fit images in page width
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth
+\else\Gin@nat@width\fi}
+\makeatother
+\let\Oldincludegraphics\includegraphics
+\renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=\maxwidth]{#1}}
+
+% for exact placement of figures
+\usepackage{float}
+
+% for footnotes in tables
+\usepackage{longtable}
+\usepackage{booktabs}
+
+% for hyperlinks
+\usepackage[colorlinks,urlcolor=blue,filecolor=blue,linkcolor=black,citecolor=black]{hyperref}
+\usepackage[all]{hypcap}
+\urlstyle{same}
+
+% do not number sections
+\setcounter{secnumdepth}{0}
+
+
+% remove date completely
+\date{\vspace{-5ex}}
+
+\begin{document}
+
+
+\namesection{Basukinath}{Tiwari}{basukinathtiwari231198@gmail.com | 7517070513 | Pune, India | https://www.linkedin.com/in/bnt231198}
+
+\section{Education}
+
+\raggedright
+
+CGPA: 8.56\\
+
+Percentage: 89.8\%\\
+
+SGPA: 10\\
+
+\section{Skills}
+
+\raggedright
+
+\begin{longtable}[]{@{}l@{}}
+\toprule
+\begin{minipage}[t]{0.97\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.97\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.97\columnwidth}\raggedright
+\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\sectionsep
+
+\section{Projects}
+
+\raggedright
+
+\runsubsection{\large{Ethereum Based Voting System}}
+
+Used Truﬄe, Ganache and drizzle in the Ethereum platform to create a
+decentralized voting system\\
+
+\runsubsection{\large{Image Stegnography}}
+
+Used Steganography for hiding secret data, by embedding it into an
+audio, video, image or text file by using raster matrix manipulation
+in\\
+
+\section{Awards}
+
+Achieved Rank - 508 out of more than 3000 teams\\
+~\\
+Rated Div-1 in Topcoder Data Science\\
+~\\
+Country Rank 11 out of 3002 candidates\\
+~\\
+Max Rating - 1980 and top 95.75 percentile coders all over globe\\
+~\\
+Max Rating - 1816\\
+\hspace*{0.333em}
+
+
+\end{document}
