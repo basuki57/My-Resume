@@ -1,0 +1,143 @@
+{
+  "selectedTemplate": 4,
+  "headings": {
+    "work": "",
+    "skills": "Skills",
+    "projects": "Projects",
+    "awards": "Awards",
+    "education": "Education"
+  },
+  "basics": {
+    "name": "Basukinath Tiwari",
+    "email": "basukinathtiwari231198@gmail.com",
+    "phone": "7517070513",
+    "location": {
+      "address": "Pune, India"
+    },
+    "website": "https://www.linkedin.com/in/bnt231198"
+  },
+  "projects": [
+    {
+      "url": "",
+      "keywords": [
+        "Solidity"
+      ],
+      "description": "Used Truﬄe, Ganache and drizzle in the Ethereum platform to create a decentralized voting system",
+      "name": "Ethereum Based Voting System"
+    },
+    {
+      "keywords": [
+        "Java"
+      ],
+      "name": "Image Stegnography",
+      "description": " Used Steganography for hiding secret data, by embedding it into an audio, video, image or text file by using raster matrix manipulation in "
+    }
+  ],
+  "awards": [
+    {
+      "date": "October 2018",
+      "awarder": "ICPC",
+      "summary": "Achieved Rank - 508 out of more than 3000 teams",
+      "title": "ACM ICPC Online Round Amritapuri (Honourable mention) "
+    },
+    {
+      "summary": "Rated Div-1 in Topcoder Data Science",
+      "title": "Topcoder "
+    },
+    {
+      "summary": "Country Rank 11 out of 3002 candidates",
+      "awarder": "Country Ranking",
+      "title": "Timus"
+    },
+    {
+      "summary": "Max Rating - 1980 and top 95.75 percentile coders all over globe",
+      "awarder": "Global Rating",
+      "title": "Hackerrank"
+    },
+    {
+      "summary": "Max Rating - 1816",
+      "title": "Codechef"
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ],
+  "education": [
+    {
+      "institution": "Army Institute Of Technology",
+      "location": "Pune, India",
+      "area": "Computer Engineering",
+      "studyType": "BE",
+      "startDate": "July 2017",
+      "sgpa": "8.56",
+      "endDate": "June 2021"
+    },
+    {},
+    {
+      "institution": "Millia Convent English School",
+      "location": "Purnea",
+      "area": "HIgh School Diploma",
+      "endDate": "March 2016",
+      "startDate": "April 2014",
+      "percentage": "89.8%"
+    },
+    {
+      "institution": "Army Public School",
+      "location": "Sukna",
+      "studyType": "Middle School",
+      "cgpa": "10",
+      "startDate": "April 2014",
+      "endDate": "March 2016"
+    }
+  ],
+  "work": [
+    {
+      "company": "",
+      "location": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "highlights": [
+        ""
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "C++",
+        "Java",
+        "C",
+        "Python"
+      ],
+      "name": "Programming Languages"
+    },
+    {
+      "keywords": [
+        "Sublime",
+        "VIM",
+        "Atom",
+        ""
+      ],
+      "name": "Tools"
+    },
+    {
+      "keywords": [
+        "Computer Network",
+        "DBMS",
+        "OOPs",
+        "Algorithms",
+        "Computer Architecture"
+      ],
+      "name": "Course Work"
+    }
+  ]
+}
